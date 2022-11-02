@@ -1,11 +1,8 @@
-import './App.css';
+import "./App.css";
+import CoursePage from "./Components/coursePage/coursePage";
 
 function App() {
-  return (
-    <div className="bg-green-500">
-      Hi
-    </div>
-  );
+  return <CoursePage />;
 }
 
 export default App;
