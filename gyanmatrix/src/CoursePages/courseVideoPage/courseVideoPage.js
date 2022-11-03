@@ -6,23 +6,21 @@ import Ratings from "./asserts/ratings.svg";
 import icon from "./asserts/Icon.svg";
 import vedioPlayer from "./asserts/vedioPlayer.svg"
 
+import HeaderBanner from "../../Components/HeaderBanner";
+import BackNavigation from "../../Components/BackNavigation";
+
 const courseVedioPage = () => {
- 
+ const navPath = "JavaScript"
   return (
     <div>
-      <div
-        className="flex items-center justify-center w-screen  font-poppins h-[223px] "
-        style={{ backgroundImage: `url(${backimage})` }}
-      >
-        <h1 className="text-[40px] font-semibold text-white">
-          Learn Merge Sort in JavaScript
-        </h1>
+      <div>
+        <HeaderBanner bgImg={backimage} BannerText="Learn Merge Sort in JavaScript" />
       </div>
-      <div className="ml-[139px]">
-        <div className="flex  h-24 items-center font-medium  text-xl">
-          <img className="mr-[10px] " src={path}></img>
-          <p>Back to JavaScript</p>
+      <div className="relative left-36 w-[1500px]">
+        <div>
+          <BackNavigation Path={path} Navigation={"Javascript"} />
         </div>
+       
         <div>
           <h1 className="font-semibold text-[30px] ">
             {" "}
