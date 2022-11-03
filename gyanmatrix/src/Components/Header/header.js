@@ -5,7 +5,7 @@ function Header() {
     return (
         <div>
             <div className=' w-[100%] h-[72px] shadow-box flex pl-[146.73px]'>
-                <img src={Logo} className=" pb-[11.55px] pt-[11px] " />
+                <img src={Logo} className="pb-[22.96px] pt-[19px] " />
                 <div className='pt-[17px] pb-[17px] flex gap-2 pl-[8px] font-bold text-[24.69px] '>
                 <p className=' text-[#9D1C7F]'>Gyan</p>
                 <p className=' text-[#2B2A85]'>Academy</p>
