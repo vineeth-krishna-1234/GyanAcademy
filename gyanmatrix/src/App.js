@@ -1,9 +1,14 @@
-import './App.css';
-
+import React from 'react';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/header';
 function App() {
   return (
-    <div className="bg-green-500">
-      Hi
+    <div>
+      
+      <Header/>
+      <br/>
+      <Footer/>
+
     </div>
   );
 }
