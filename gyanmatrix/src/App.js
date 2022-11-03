@@ -1,8 +1,11 @@
 import "./App.css";
-import CoursePage from "./Components/coursePage/coursePage";
-
+import CoursePage from "./CoursePages/coursePage/coursePage";
 function App() {
-  return <CoursePage />;
+  return (
+    <div>
+      <CoursePage />
+    </div>
+  );
 }
 
 export default App;
