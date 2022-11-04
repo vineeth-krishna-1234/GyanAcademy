@@ -5,7 +5,7 @@ import Logo from "../Image/Logo.png";
 function Header() {
   return (
     <div>
-      <div className=" justify-between items-center w-screen h-[72px] shadow-box flex pl-[147px]">
+      <div className=" justify-between items-center w-screen h-[72px] shadow-box flex pl-[147px] shadow-xl">
         <div className="flex items-center justify-center">
           <img src={Logo} className="pr-3" />
           <div className="flex gap-2  font-bold text-[24.69px] ">
