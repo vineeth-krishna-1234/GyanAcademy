@@ -13,7 +13,6 @@ function CoursePage() {
   const Text = "JavaScript";
   return (
     <div>
-      <div>Header</div>
       <div>
         <HeaderBanner bgImg={bgImg} BannerText="JavaScript" />
       </div>

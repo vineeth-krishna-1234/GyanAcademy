@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
         <div>
-            <div className='h-[248px] w-[100%] bg-gradient-to-r from-[#9D3991] via-[#3D61BF] to-[#427BA9] '>
+            <div className='h-[248px] w-screen bg-gradient-to-r from-[#9D3991] via-[#3D61BF] to-[#427BA9] '>
                 <div className='pt-[50px] pl-[135px] pr-[135px] divide-y-2 divide-[#D9D9D9B2]'>
                     <p className='w-[194px] h-[38px] text-[24.6857px] text-white font-bold pb-[74px]'>Gyan Academy</p>
                     <div className='flex gap-[28px] pt-[47px] text-white text-[16px]'>

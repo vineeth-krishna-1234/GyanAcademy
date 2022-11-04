@@ -1,5 +1,4 @@
 
-import "./App.css";
 import CoursePage from "./CoursePages/coursePage/coursePage";
 import CourseVedioPage from "./CoursePages/courseVideoPage/CourseVideoPage";
 import Footer from './Components/Footer/Footer';
