@@ -16,7 +16,10 @@ function CoursePage() {
       </div>
       <div className="relative left-36 w-[1500px]">
         <div>
-          <BackNavigation Navigation={"Course Library"} />
+          <BackNavigation
+            NavigateTo={"/courselibrary"}
+            Navigation={"Course Library"}
+          />
         </div>
         <div>
           <Search />

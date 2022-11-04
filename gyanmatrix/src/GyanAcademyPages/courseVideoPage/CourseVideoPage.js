@@ -11,7 +11,6 @@ import icon from "./asserts/Icon.svg";
 import vedioPlayer from "./asserts/vedioPlayer.svg";
 
 const courseVedioPage = () => {
-
   return (
     <div>
       <div>
@@ -22,7 +21,11 @@ const courseVedioPage = () => {
       </div>
       <div className="relative left-36 w-[1500px]">
         <div>
-          <BackNavigation Path={path} Navigation={"Javascript"} />
+          <BackNavigation
+            NavigateTo={"/courses"}
+            Path={path}
+            Navigation={"Javascript"}
+          />
         </div>
 
         <div>

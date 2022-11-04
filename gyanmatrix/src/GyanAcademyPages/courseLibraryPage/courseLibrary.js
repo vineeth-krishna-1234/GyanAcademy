@@ -16,7 +16,7 @@ const CourseLibrary = () => {
       </div>
       <div className="relative left-36 w-[1500px]">
         <div>
-          <BackNavigation Navigation={"Home"} />
+          <BackNavigation NavigateTo={"/"} Navigation={"Home"} />
         </div>
         <div>
           <Search />

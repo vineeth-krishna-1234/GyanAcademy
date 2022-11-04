@@ -1,7 +1,6 @@
 import React from "react";
 
 const HeaderBanner = (props) => {
-  console.log(props.BannerText);
   return (
     <div>
       <div

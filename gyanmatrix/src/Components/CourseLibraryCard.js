@@ -8,6 +8,7 @@ const CourseLibraryCard = () => {
   const handelPages = () => {
     Navigate("/Courses");
   };
+
   return (
     <div>
       <div className="w-[100%] h-[1195px] bg-[#BCFFDF] flex-wrap flex">
