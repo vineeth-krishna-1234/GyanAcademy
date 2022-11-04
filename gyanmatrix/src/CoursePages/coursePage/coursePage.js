@@ -10,7 +10,7 @@ import bgImg from "./asserts/Banner.svg"
 
 
 function CoursePage() {
-  const Text = "JavaScript";
+  const Text = "JavaScript";   
   return (
     <div>
       <div>
