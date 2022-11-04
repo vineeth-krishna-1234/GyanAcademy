@@ -5,8 +5,8 @@ import courses from "./JSON/data.json";
 courses = courses.courses;
 const CourseLibraryCard = () => {
   const Navigate = useNavigate();
-  const handelPages = () => {
-    Navigate("/Courses");
+  const handelPages = (courseAvailable) => {
+    Navigate("/Courses",{state:courseAvailable});
   };
 
   return (
@@ -41,7 +41,7 @@ const CourseLibraryCard = () => {
                   style={{ color: `${obj.color}` }}
                 >
                   <button
-                    onClick={handelPages}
+                    onClick={()=>handelPages(obj.courseAvailable)}
                     className="border-[2px] w-[174px] h-[42px] rounded-[25px] shadow-md"
                     style={{ borderColor: `${obj.color}` }}
                   >

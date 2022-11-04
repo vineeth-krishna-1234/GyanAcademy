@@ -100,6 +100,861 @@
               ]
             }
           ]
+        },
+        {
+          "courseName": "Learn Merge sort in javascript",
+          "noOfLessons": 32,
+          "courseTime": "3h 20m",
+          "courseLevel": "Beginner",
+          "courseTutor": "Sophie Delgado",
+          "tutorImage": "http:/",
+          "courseRatings": "4.7",
+          "courseDescription": "Find out how far you can go with your JavaScript abilities!",
+          "courseVideos": [
+            {
+              "tasks": [
+                {
+                  "taskHeader": "build a passenger count app",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 1",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "setting up a local dev environment",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a blackjack game",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 2",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a chrom Extension",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                }
+              ],
+              "learningTags": [
+                "const & let",
+                "logical operators",
+                "Dom manipulation",
+                "querySelector()",
+                "conditional statements",
+                "LocalStorage",
+                "JSON",
+                "debugging with google",
+                "math object",
+                "template strings",
+                "arrays"
+              ]
+            }
+          ]
+        },
+        {
+          "courseName": "Learn Merge sort in javascript",
+          "noOfLessons": 32,
+          "courseTime": "3h 20m",
+          "courseLevel": "Beginner",
+          "courseTutor": "Sophie Delgado",
+          "tutorImage": "http:/",
+          "courseRatings": "4.7",
+          "courseDescription": "Find out how far you can go with your JavaScript abilities!",
+          "courseVideos": [
+            {
+              "tasks": [
+                {
+                  "taskHeader": "build a passenger count app",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 1",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "setting up a local dev environment",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a blackjack game",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 2",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a chrom Extension",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                }
+              ],
+              "learningTags": [
+                "const & let",
+                "logical operators",
+                "Dom manipulation",
+                "querySelector()",
+                "conditional statements",
+                "LocalStorage",
+                "JSON",
+                "debugging with google",
+                "math object",
+                "template strings",
+                "arrays"
+              ]
+            }
+          ]
+        },
+        {
+          "courseName": "Learn Merge sort in javascript",
+          "noOfLessons": 32,
+          "courseTime": "3h 20m",
+          "courseLevel": "Beginner",
+          "courseTutor": "Sophie Delgado",
+          "tutorImage": "http:/",
+          "courseRatings": "4.7",
+          "courseDescription": "Find out how far you can go with your JavaScript abilities!",
+          "courseVideos": [
+            {
+              "tasks": [
+                {
+                  "taskHeader": "build a passenger count app",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 1",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "setting up a local dev environment",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a blackjack game",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 2",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a chrom Extension",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                }
+              ],
+              "learningTags": [
+                "const & let",
+                "logical operators",
+                "Dom manipulation",
+                "querySelector()",
+                "conditional statements",
+                "LocalStorage",
+                "JSON",
+                "debugging with google",
+                "math object",
+                "template strings",
+                "arrays"
+              ]
+            }
+          ]
+        },
+        {
+          "courseName": "Learn Merge sort in javascript",
+          "noOfLessons": 32,
+          "courseTime": "3h 20m",
+          "courseLevel": "Beginner",
+          "courseTutor": "Sophie Delgado",
+          "tutorImage": "http:/",
+          "courseRatings": "4.7",
+          "courseDescription": "Find out how far you can go with your JavaScript abilities!",
+          "courseVideos": [
+            {
+              "tasks": [
+                {
+                  "taskHeader": "build a passenger count app",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 1",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "setting up a local dev environment",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a blackjack game",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 2",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a chrom Extension",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                }
+              ],
+              "learningTags": [
+                "const & let",
+                "logical operators",
+                "Dom manipulation",
+                "querySelector()",
+                "conditional statements",
+                "LocalStorage",
+                "JSON",
+                "debugging with google",
+                "math object",
+                "template strings",
+                "arrays"
+              ]
+            }
+          ]
+        },
+        {
+          "courseName": "Learn Merge sort in javascript",
+          "noOfLessons": 32,
+          "courseTime": "3h 20m",
+          "courseLevel": "Beginner",
+          "courseTutor": "Sophie Delgado",
+          "tutorImage": "http:/",
+          "courseRatings": "4.7",
+          "courseDescription": "Find out how far you can go with your JavaScript abilities!",
+          "courseVideos": [
+            {
+              "tasks": [
+                {
+                  "taskHeader": "build a passenger count app",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 1",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "setting up a local dev environment",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a blackjack game",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 2",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a chrom Extension",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                }
+              ],
+              "learningTags": [
+                "const & let",
+                "logical operators",
+                "Dom manipulation",
+                "querySelector()",
+                "conditional statements",
+                "LocalStorage",
+                "JSON",
+                "debugging with google",
+                "math object",
+                "template strings",
+                "arrays"
+              ]
+            }
+          ]
+        },
+        {
+          "courseName": "Learn Merge sort in javascript",
+          "noOfLessons": 32,
+          "courseTime": "3h 20m",
+          "courseLevel": "Beginner",
+          "courseTutor": "Sophie Delgado",
+          "tutorImage": "http:/",
+          "courseRatings": "4.7",
+          "courseDescription": "Find out how far you can go with your JavaScript abilities!",
+          "courseVideos": [
+            {
+              "tasks": [
+                {
+                  "taskHeader": "build a passenger count app",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 1",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "setting up a local dev environment",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a blackjack game",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 2",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a chrom Extension",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                }
+              ],
+              "learningTags": [
+                "const & let",
+                "logical operators",
+                "Dom manipulation",
+                "querySelector()",
+                "conditional statements",
+                "LocalStorage",
+                "JSON",
+                "debugging with google",
+                "math object",
+                "template strings",
+                "arrays"
+              ]
+            }
+          ]
+        },
+        {
+          "courseName": "Learn Merge sort in javascript",
+          "noOfLessons": 32,
+          "courseTime": "3h 20m",
+          "courseLevel": "Beginner",
+          "courseTutor": "Sophie Delgado",
+          "tutorImage": "http:/",
+          "courseRatings": "4.7",
+          "courseDescription": "Find out how far you can go with your JavaScript abilities!",
+          "courseVideos": [
+            {
+              "tasks": [
+                {
+                  "taskHeader": "build a passenger count app",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 1",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "setting up a local dev environment",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a blackjack game",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 2",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a chrom Extension",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                }
+              ],
+              "learningTags": [
+                "const & let",
+                "logical operators",
+                "Dom manipulation",
+                "querySelector()",
+                "conditional statements",
+                "LocalStorage",
+                "JSON",
+                "debugging with google",
+                "math object",
+                "template strings",
+                "arrays"
+              ]
+            }
+          ]
+        },
+        {
+          "courseName": "Learn Merge sort in javascript",
+          "noOfLessons": 32,
+          "courseTime": "3h 20m",
+          "courseLevel": "Beginner",
+          "courseTutor": "Sophie Delgado",
+          "tutorImage": "http:/",
+          "courseRatings": "4.7",
+          "courseDescription": "Find out how far you can go with your JavaScript abilities!",
+          "courseVideos": [
+            {
+              "tasks": [
+                {
+                  "taskHeader": "build a passenger count app",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 1",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "setting up a local dev environment",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a blackjack game",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 2",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a chrom Extension",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                }
+              ],
+              "learningTags": [
+                "const & let",
+                "logical operators",
+                "Dom manipulation",
+                "querySelector()",
+                "conditional statements",
+                "LocalStorage",
+                "JSON",
+                "debugging with google",
+                "math object",
+                "template strings",
+                "arrays"
+              ]
+            }
+          ]
+        },
+        {
+          "courseName": "Learn Merge sort in javascript",
+          "noOfLessons": 32,
+          "courseTime": "3h 20m",
+          "courseLevel": "Beginner",
+          "courseTutor": "Sophie Delgado",
+          "tutorImage": "http:/",
+          "courseRatings": "4.7",
+          "courseDescription": "Find out how far you can go with your JavaScript abilities!",
+          "courseVideos": [
+            {
+              "tasks": [
+                {
+                  "taskHeader": "build a passenger count app",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 1",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "setting up a local dev environment",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a blackjack game",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Practice time -part 2",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                },
+                {
+                  "taskHeader": "Build a chrom Extension",
+                  "taskItems": [
+                    "objects and functions",
+                    "if else",
+                    "loops and array",
+                    "push,pop,unshift,shift challenge",
+                    "logical operator",
+                    "solo project"
+                  ]
+                }
+              ],
+              "learningTags": [
+                "const & let",
+                "logical operators",
+                "Dom manipulation",
+                "querySelector()",
+                "conditional statements",
+                "LocalStorage",
+                "JSON",
+                "debugging with google",
+                "math object",
+                "template strings",
+                "arrays"
+              ]
+            }
+          ]
         }
       ]
     },
