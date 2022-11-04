@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 //JSON
-import { courseLibraryData } from "./JSON/Const";
-
+import courses from "./JSON/data.json";
+courses = courses.courses;
 const CourseLibraryCard = () => {
   const Navigate = useNavigate();
   const handelPages = () => {
@@ -11,13 +11,17 @@ const CourseLibraryCard = () => {
   return (
     <div>
       <div className="w-[100%] h-[1195px] bg-[#BCFFDF] flex-wrap flex">
-        {courseLibraryData.length > 0 &&
-          courseLibraryData.map((obj) => (
+        {courses.length > 0 &&
+          courses.map((obj) => (
             <div className="pt-[55px]">
               <div className="ml-[129px] w-[356px] h-[236px] shadow-md shadow-gray-300 bg-white rounded-[25px]">
                 <div
                   className="z-0 relative w-[356px] h-[145px] text-white rounded-t-[25px]"
-                  style={{ backgroundImage: `url(${obj.picture})` }}
+                  style={{
+                    backgroundImage: `url(${require("./Image/" +
+                      obj.picture +
+                      ".png")})`,
+                  }}
                 >
                   <div
                     className="z-10 absolute mt-[30px] ml-[30px] w-[3px] h-[22px] border-l-[4px] "

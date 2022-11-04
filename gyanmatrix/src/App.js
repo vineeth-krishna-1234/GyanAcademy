@@ -17,7 +17,6 @@ function App() {
         <Route path="/coursevideo" element={<CourseVideoPage />}></Route>
         <Route path="/Courses" element={<CoursePage />}></Route>
         <Route path="/courselibrary" element={<CourseLibrary />} exact></Route>
-        
       </Routes>
       <Footer />
     </div>
