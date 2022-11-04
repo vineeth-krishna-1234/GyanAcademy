@@ -1,12 +1,14 @@
-import React from 'react';
+
+import "./App.css";
+import CoursePage from "./CoursePages/coursePage/coursePage";
+import CourseVedioPage from "./CoursePages/courseVideoPage/CourseVideoPage";
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/header';
 function App() {
   return (
     <div>
-      
-      <Header/>
-      <br/>
+     <Header/>
+      <CoursePage />
       <Footer/>
 
     </div>
