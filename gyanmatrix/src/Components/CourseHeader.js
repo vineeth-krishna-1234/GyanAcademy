@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function CourseHeader() {
   return (
@@ -12,7 +12,7 @@ function CourseHeader() {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default CourseHeader
+export default CourseHeader;

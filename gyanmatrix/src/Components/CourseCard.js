@@ -1,9 +1,17 @@
 import React from "react";
-
-import preview from "../CoursePages/coursePage/asserts/preview.png";
-import profile from "../CoursePages/coursePage/asserts/tutorProfile.png";
+import { useNavigate } from "react-router-dom";
+//asserts
+import preview from "../GyanAcademyPages/coursePage/asserts/preview.png";
+import profile from "../GyanAcademyPages/coursePage/asserts/tutorProfile.png";
+import ratings from "../GyanAcademyPages/coursePage/asserts/star.png"
 
 const CourseCard = () => {
+  const Navigate = useNavigate();
+  
+  const handelCoursevideo = () => {
+    Navigate("/coursevideo");
+  };
+
   return (
     <div>
       <div className="h-[1515px] overflow-y-scroll no-scrollbar">
@@ -24,14 +32,17 @@ const CourseCard = () => {
                 <p className="mr-[15px] text-[12px] font-medium">
                   Sophie Delgado
                 </p>
-                {/* <img src={ratings} className="h-[11px] w-[11px] mr-[5px]" /> */}
+                <img src={ratings} className="h-[11px] w-[11px] mr-[5px]" />
                 <p className="text-[12px] font-medium">4.5</p>
               </div>
               <p className="text-[14px] font-normal">
                 Find out how far you can go with your JavaScript abilities!Find
                 out how far you can go with your JavaScript abilities!
               </p>
-              <button className="border-[2px] w-[174px] h-[42px] rounded-[25px] border-[#9D1C7F] left-[250px] relative">
+              <button
+                onClick={handelCoursevideo}
+                className="border-[2px] w-[174px] h-[42px] rounded-[25px] border-[#9D1C7F] left-[250px] relative"
+              >
                 Enroll
               </button>
             </div>

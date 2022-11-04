@@ -1,5 +1,6 @@
 import React from "react";
-import search from "../CoursePages/coursePage/asserts/search.png";
+//asserts
+import search from "../GyanAcademyPages/coursePage/asserts/search.png";
 const Search = () => {
   return (
     <div>

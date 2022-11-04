@@ -1,9 +1,7 @@
 import React from "react";
-
+//components
 import GetStarted from "./GetStarted";
 import CourseCard from "./CourseCard";
-
-
 
 const CardContainer = () => {
   return (

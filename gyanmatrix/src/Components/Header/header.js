@@ -1,4 +1,5 @@
 import React from "react";
+//asserts
 import Logo from "../Image/Logo.png";
 
 function Header() {

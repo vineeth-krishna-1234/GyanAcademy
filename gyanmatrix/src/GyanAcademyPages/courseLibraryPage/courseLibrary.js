@@ -1,21 +1,16 @@
-import React from 'react'
-import Header from '../../Components/Header/header'
-import Footer from '../../Components/Footer/Footer'
-
+import React from "react";
 //components
-import HeaderBanner from '../../Components/HeaderBanner';
+import HeaderBanner from "../../Components/HeaderBanner";
 import Search from "../../Components/Search";
 import BackNavigation from "../../Components/BackNavigation";
 import CourseHeader from "../../Components/CourseHeader";
-import CourseLibraryCard from '../../Components/CourseLibraryCard';
-//images
-import background from './Images/coursebg.png'
+import CourseLibraryCard from "../../Components/CourseLibraryCard";
+//asserts
+import background from "./asserts/coursebg.png";
 
-function courseLibrary() {
+const CourseLibrary = () => {
   return (
     <div>
-      <div><Header /></div>
-      {/* background */}
       <div>
         <HeaderBanner bgImg={background} BannerText="Course Library" />
       </div>
@@ -33,11 +28,8 @@ function courseLibrary() {
       <div>
         <CourseLibraryCard />
       </div>
-      <div>
-        <Footer />
-      </div>
     </div>
-  )
-}
+  );
+};
 
-export default courseLibrary
+export default CourseLibrary;

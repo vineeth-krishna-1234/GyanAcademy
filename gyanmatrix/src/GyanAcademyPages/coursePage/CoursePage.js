@@ -1,16 +1,14 @@
 import React from "react";
-
 //components
 import Search from "../../Components/Search";
 import HeaderBanner from "../../Components/HeaderBanner";
 import BackNavigation from "../../Components/BackNavigation";
 import CourseCardContainer from "../../Components/CourseCardContainer";
 //asserts
-import bgImg from "./asserts/Banner.svg"
-
+import bgImg from "./asserts/Banner.svg";
 
 function CoursePage() {
-  const Text = "JavaScript";   
+  const Text = "JavaScript";
   return (
     <div>
       <div>
@@ -23,12 +21,9 @@ function CoursePage() {
         <div>
           <Search />
         </div>
- 
-  <div>
-    <CourseCardContainer/>
-  </div>
-       
-      
+        <div>
+          <CourseCardContainer />
+        </div>
       </div>
     </div>
   );
