@@ -1,4 +1,5 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 //components
 import HeaderBanner from "../../Components/HeaderBanner";
 import BackNavigation from "../../Components/BackNavigation";
@@ -10,7 +11,20 @@ import Ratings from "./asserts/ratings.svg";
 import icon from "./asserts/Icon.svg";
 import vedioPlayer from "./asserts/vedioPlayer.svg";
 
-const courseVedioPage = () => {
+const CourseVideoPage = () => {
+  let passedData = useLocation();
+  passedData = passedData.state;
+  const tasks = passedData.tasks[0].tasks;
+  console.log(tasks);
+  const onClickHandler = (event) => {
+    console.log(event);
+    const selectedElement = document.getElementById(
+      `${event.target.id}-videos`
+    );
+    console.log(selectedElement.style.display);
+    selectedElement.style.display =
+      selectedElement.style.display == "block" ? "none" : "block";
+  };
   return (
     <div>
       <div>
@@ -29,57 +43,49 @@ const courseVedioPage = () => {
         </div>
 
         <div>
-          <h1 className="font-semibold text-[30px] ">
-            {" "}
-            Learn Merge Sort in JavaScript
-          </h1>
+          <h1 className="font-semibold text-[30px] "> {passedData.title}</h1>
         </div>
         <div className="mt-10 flex items-center mb-10">
           <img className="mr-3" src={userprofile}></img>
           <p className="mr-10 opacity-60 font-semibold text-[22px]">
-            Sophie Delgado
+            {passedData.tutor}
           </p>
           <img className="mr-3" src={Ratings}></img>
-          <p>4.7</p>
+          <p>{passedData.ratings}</p>
         </div>
-        <p className="font-medium text-[20px]">
-          Learn the basics of JavaScript by solving 140+ interactive coding
-          challenges and building three fun projects.
-        </p>
+        <p className="font-medium text-[20px]">{passedData.description}</p>
         <div className=" mt-16 gap-y-6">
-          <div className="mb-[26px] focus:bg-green-300">
-            <div className="flex  items-center justify-start w-[1168px] border-2 border-gray-200 h-24 rounded-[20px]">
-              <img className="ml-[35px] mr-[31px]" src={icon}></img>
-              <p className="font-medium text-[22px]">
-                Build a passenger counter app
-              </p>
-            </div>
-            <div className=" focus:block">
-              <div className="flex items-center justify-start w-[1168px] border-2 border-gray-200 h-24 rounded-none">
-                <img className="ml-[35px] mr-[31px]" src={vedioPlayer}></img>
-                <p className="font-medium text-[22px]">Build a pass</p>
+          {tasks.length &&
+            tasks.map((obj, index) => (
+              <div className="mb-[26px] focus:bg-green-300">
+                <div
+                  className="flex  items-center justify-start w-[1168px] border-2 border-gray-200 h-24 rounded-[20px]"
+                  id={`index-${index}`}
+                  onClick={(event) => {
+                    onClickHandler(event);
+                  }}
+                >
+                  <img className="ml-[35px] mr-[31px]" src={icon}></img>
+                  <p className="font-medium text-[22px]">{obj.taskHeader}</p>
+                </div>
+                <div
+                  className=" focus:block hidden"
+                  id={`index-${index}-videos`}
+                >
+                  {obj.taskItems.length &&
+                    obj.taskItems.map((obj) => (
+                      <div className="flex items-center justify-start w-[1168px] border-2 border-gray-200 h-24 rounded-none">
+                        <img
+                          className="ml-[35px] mr-[31px]"
+                          src={vedioPlayer}
+                        ></img>
+                        <p className="font-medium text-[22px]">{obj}</p>
+                      </div>
+                    ))}
+                </div>
               </div>
-              <div className="flex items-center justify-start w-[1168px] border-2 border-gray-200 h-24 rounded-none">
-                <img className="ml-[35px] mr-[31px]" src={vedioPlayer}></img>
-                <p className="font-medium text-[22px]">Build a pass</p>
-              </div>
-              <div className="flex items-center justify-start w-[1168px] border-2 border-gray-200 h-24 rounded-none">
-                <img className="ml-[35px] mr-[31px]" src={vedioPlayer}></img>
-                <p className="font-medium text-[22px]">Build a pass</p>
-              </div>
-              <div className="flex items-center justify-start w-[1168px] border-2 border-gray-200 h-24 rounded-[20px]">
-                <img className="ml-[35px] mr-[31px]" src={vedioPlayer}></img>
-                <p className="font-medium text-[22px]">Build a pass</p>
-              </div>
-            </div>
-          </div>
+            ))}
 
-          <div className="flex items-center justify-start w-[1168px] border-2 border-gray-200 h-24 rounded-[20px]">
-            <img className="ml-[35px] mr-[31px]" src={icon}></img>
-            <p className="font-medium text-[22px]">
-              Build a passenger counter app
-            </p>
-          </div>
           {/* <details
             class="open:bg-white dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg"
             open
@@ -108,16 +114,10 @@ const courseVedioPage = () => {
               </p>
             </div>
           </details> */}
-          <div className="flex items-center justify-start w-[1168px] border-2 border-gray-200 h-24 rounded-[20px]">
-            <img className="ml-[35px] mr-[31px]" src={icon}></img>
-            <p className="font-medium text-[22px]">
-              Build a passenger counter app
-            </p>
-          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default courseVedioPage;
+export default CourseVideoPage;
