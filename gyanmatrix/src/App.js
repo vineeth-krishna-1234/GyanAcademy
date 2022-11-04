@@ -1,15 +1,10 @@
-
-import CoursePage from "./CoursePages/coursePage/coursePage";
-import CourseVedioPage from "./CoursePages/courseVideoPage/CourseVideoPage";
-import Footer from './Components/Footer/Footer';
-import Header from './Components/Header/header';
+// import CoursePage from "./CoursePages/coursePage/coursePage";
+import CourseLibrary from "./CoursePages/courseLibraryPage/courseLibrary";
 function App() {
   return (
     <div>
-     <Header/>
-      <CoursePage />
-      <Footer/>
-
+      {/* <CoursePage /> */}
+      <CourseLibrary />
     </div>
   );
 }
